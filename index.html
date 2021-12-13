@@ -1,0 +1,48 @@
+<!doctype html>
+<html lamg="en">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Lupe Salas">
+        <meta name="description" content="Lupe Salas">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lupe Salas</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="html/info.html">Info</a></li>
+                <li><a href="html/music.html">Music</a></li>
+                <li><a href="html/socials.html">Socials</a></li>
+            </ul>
+        </header>
+        <section>
+            <img src="/img/1.jpg" id="main">
+            <h1 id="text">Lupe Salas</h1>
+            <a href="#sec" id="btn">More</a>
+        </section>
+        <div class="sec" id="sec">
+            <h2>About</h2>
+            <p>
+                Lupe Salas is a Bilingual producer, songwriter, singer music artist. Born and raised in Buenos Aires, Argentina, she lives in a cyber world worldwide.<br>
+                Lupe started developing her love for music since a kid, at 8 years old, she knew she was destined to be a music artist, and was going to pursue that dream. She started getting basic knowledge of daws and music production in 2017, in 2018 bought a midi controller with a microphone, but she was still in high school so it wasn't until 2020 when she learnt how to produce music to its fullest by watching YouTube tutorials. In 2 months, she was creating her own songs.<br>
+                At least for now, she does everything by herself, from the music production, songwriting, recording sessions, to the art covers even music videos, everything is directed by herself.<br>
+                "I would love to bring something to this world, we all share same feelings, I would like to help people with my music and leave a message for my generation. I don't wanna be another fake artist who talks about depression. I want to talk about real stuff gen z is going thorugh. My experiences through trauma and having a hard childhood give me something to talk about. I hope my music helps you, just like it helped me"
+                - Lupe<br></p>
+        </div>
+
+        <script>
+            let btn = document.getElementById('btn');
+            let text = document.getElementById('text');
+
+            window.addEventListener('scroll', function(){
+                let value = window.scrollY
+                btn.style.marginTop = value * 2 + 'px';
+                text.style.marginTop = value * 0.5 + 'px';
+            })
+        </script>
+        <style type="text/css">* {cursor: url(https://ani.cursors-4u.net/symbols/sym-8/sym752.cur), auto !important;}</style><a href="https://www.cursors-4u.com/cursor/2013/02/13/sexy-pink-heart-15.html" target="_blank" title="Sexy Pink Heart"><img src="https://cur.cursors-4u.net/cursor.png" border="0" alt="Sexy Pink Heart" style="position:absolute; top: 0px; right: 0px;" /></a>
+    </body>
+</html>

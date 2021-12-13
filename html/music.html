@@ -1,0 +1,85 @@
+<!doctype html>
+<html lamg="en">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Lupe Salas">
+        <meta name="description" content="Lupe Salas">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lupe Salas</title>
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../html/info.html">Info</a></li>
+                <li><a href="../html/music.html" class="active">Music</a></li>
+                <li><a href="../html/socials.html">Socials</a></li>
+            </ul>
+        </header>
+            
+            <h1 class="title">Music</h1>
+            <div class="card-deck">
+            <div class="card" style="width: 600px;">
+                <a href="https://open.spotify.com/artist/1lwxlLPxee4tmTcHZZGBhv">
+                <img class="card-img-top" src="../img/spotify.jpg" alt="Card image cap">
+                <a></a>
+                <div class="card-body">
+                    <h3 class="card-title">Spotify</h3>
+                </div>
+            </div>
+
+            <div class="card" style="width: 600px;">
+                <a href="https://music.apple.com/ar/artist/lupe-salas/1488748259">
+                <img class="card-img-top" src="../img/apple.jpg" alt="Card image cap">
+                <a></a>
+                <div class="card-body">
+                    <h3 class="card-title">Apple Music</h3>
+                </div>
+            </div>
+
+            <div class="card" style="width: 600px;">
+                <a href="https://music.amazon.com/artists/B081TGHXNM/lupe-salas">
+                <img class="card-img-top" src="../img/amazon.png" alt="Card image cap">
+                <a></a>
+                <div class="card-body">
+                    <h3 class="card-title">Amazon Music</h3>
+                </div>
+            </div>
+
+            <div class="card" style="width: 600px;">
+                <a href="https://deezer.page.link/hxVEJE75VwvGf4Zk8">
+                <img class="card-img-top" src="../img/deezer.jpg" alt="Card image cap">
+                <a></a>
+                <div class="card-body">
+                    <h3 class="card-title">Deezer</h3>
+                </div>
+            </div>
+            </div>
+
+            <h1 class="title">Videos</h1>
+            
+            <div class="card-deck">
+            <div class="embed-responsive embed-responsive-21by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Gyl0s3KRjJ4"></iframe>
+            </div>
+            <div class="embed-responsive embed-responsive-21by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VamGvczOf-4"></iframe>
+            </div>
+            </div>
+            
+        <script>
+            let btn = document.getElementById('btn');
+            let text = document.getElementById('text');
+
+            window.addEventListener('scroll', function(){
+                let value = window.scrollY
+                btn.style.marginTop = value * 2 + 'px';
+                text.style.marginTop = value * 0.5 + 'px';
+            })
+        </script>
+        <style type="text/css">* {cursor: url(https://ani.cursors-4u.net/symbols/sym-8/sym752.cur), auto !important;}</style><a href="https://www.cursors-4u.com/cursor/2013/02/13/sexy-pink-heart-15.html" target="_blank" title="Sexy Pink Heart"><img src="https://cur.cursors-4u.net/cursor.png" border="0" alt="Sexy Pink Heart" style="position:absolute; top: 0px; right: 0px;" /></a>
+    </body>
+</html>

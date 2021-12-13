@@ -1,0 +1,56 @@
+<!doctype html>
+<html lamg="en">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Lupe Salas">
+        <meta name="description" content="Lupe Salas">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lupe Salas</title>
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../html/info.html" class="active">Info</a></li>
+                <li><a href="../html/music.html">Music</a></li>
+                <li><a href="../html/socials.html">Socials</a></li>
+            </ul>
+        </header>
+        <h1 class="title">Info</h1>
+        <div class="secinfo" id="sec">
+            <h4>Likes:</h4>
+            <p>
+                Rain, Coffee, Anime, Korean dramas, Space, Animals, Fantasy worlds, Ciencie Fiction, Countrysides, Futurism, Spirituality, Autumn, Smell of rain.<br><br></p>
+            <h4>Dislikes:</h4>
+            <p>
+                Rutines<br><br></p>
+            <h4>Favorite movies/series:</h4>
+            <p>
+                Sprited Away, Howl's Moving Castle, Breaking Bad, American Horror Story, Death Note<br><br></p>
+            <h4>Favorite food:</h4>
+            <p>
+                Pasta, chocolate and veggie burgers<br><br></p>
+            <h4>Favorite color:</h4>
+            <p>
+                Pink and Black.<br><br></p>
+            
+            <img src="../img/1.jpg" class="img-fluid" alt="Responsive image">
+            <img src="../img/2.jpg" class="img-fluid" alt="Responsive image">
+        </div>
+
+        <script>
+            let btn = document.getElementById('btn');
+            let text = document.getElementById('text');
+
+            window.addEventListener('scroll', function(){
+                let value = window.scrollY
+                btn.style.marginTop = value * 2 + 'px';
+                text.style.marginTop = value * 0.5 + 'px';
+            })
+        </script>
+        <style type="text/css">* {cursor: url(https://ani.cursors-4u.net/symbols/sym-8/sym752.cur), auto !important;}</style><a href="https://www.cursors-4u.com/cursor/2013/02/13/sexy-pink-heart-15.html" target="_blank" title="Sexy Pink Heart"><img src="https://cur.cursors-4u.net/cursor.png" border="0" alt="Sexy Pink Heart" style="position:absolute; top: 0px; right: 0px;" /></a>
+    </body>
+</html>
